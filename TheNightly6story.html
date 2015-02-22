@@ -1,0 +1,440 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>NBC News.com Nightly News</title>
+    
+    
+    %%[
+
+var @todaysdate
+set @todaysdate = Format(Now(), "yyyyMMdd")
+
+]%%
+    
+    
+		<style type="text/css">
+
+			html {
+	            -webkit-text-size-adjust:100%;
+	            -ms-text-size-adjust:100%;
+	        }
+
+			body {margin: 0; padding: 0;}
+
+
+			@media only screen and (max-width: 480px) {
+				table[class="container"] {width: 100% !important;}
+				table[class="mobile-hide"] {display: none !important;}
+				td[class="article-image-top"] {padding: 20px 0 0 0 !important;}
+				td[class="article-image"] {padding: 0 !important;}
+				td img[class="mobile"] {width: 100% !important;}
+				/*table img {width: 100%;}*/
+
+			}
+		</style>
+	</head>
+	<body>
+    
+		<custom name="opencounter" type="tracking">
+			<div style="margin:0; padding:0; background-color:#ffffff;" marginheight="0" marginwidth="0">
+				<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+					<tbody>
+						<tr>
+							<td>
+								<table bgcolor="#eeeeee" width="600" align="center" border="0" cellspacing="0" cellpadding="0" class="container">
+									<tbody>
+										<tr> <!--header-->
+											<td>
+					                  			<table width="100% " cellspacing="0" cellpadding="0" class="header">
+					                    			<tbody>
+					                      				<tr>
+											              <td width="100%" align="left">
+											                <a href="%%=ContentAreaByName("My contents\Nightly News\watch_full_broadcast_link")=%%?cid=eml_nnn_%%=v(@todaysdate)=%%">
+											                <img src="http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/nightly_header2.jpg" alt="The Nightly" width="100%" border="0" style="display:block" class="mobile" usemap="#Maphead" />
+											                </a>
+											              </td>
+											            </tr>
+				                        				<!--<tr>
+								              				<td>
+								                				<table width="100%" cellspacing="0" cellpadding="0" class="mobile-hide">
+												                  <tr>
+												                    <td align="left" bgcolor="#081b26" style="padding: 10px 0 10px 20px"><font face="Arial, Helvetica, sans-serif" color="#eeeeee" style="font-size:14px; font-weight: 100; text-decoration:none; text-align: center">%%=ContentAreaByName("My contents\Nightly News\tagline")=%%</font></td>
+												                  </tr>
+								                				</table>
+								              				</td>
+								            			</tr>-->
+								            		</tbody>
+								            	</table>
+								            </td>
+										</tr> <!--header end-->
+										<tr>
+											<td>
+												<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+													<tbody>
+														<tr>
+															<td>
+																<table width="100%" cellspacing="0" cellpadding="0" border="0">
+																	<tbody>
+																		<tr>
+																			<td>
+																				<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+																					<tbody>
+																						<tr>
+																							<td>
+																								<table cellspacing="0" cellpadding="0" border="0">
+																									<tbody>
+																										<tr> <!--Article 1-->
+																											<td valign="top" style="padding: 20px 20px 0 20px" class="article-image-top">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article01\Article01_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff;" target="_blank">
+																													<img class="mobile" width="560" border="0" alt src="%%=ContentAreaByName("My contents\Nightly News\Article01\Article01_image")=%%" style="display:block"></a>
+																											</td>
+																										</tr>
+																										<tr>
+																                                            <td style="display:none; max-height:0px; font-size:0px; height:0px" class="hide"><div class="hide" style="display:none; max-height:0; font-size:0px; height:0px"><a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article01\Article01_link'),'?cid=eml_nnn_',@todaysdate))=%%"><img src="%%=ContentAreaByName("My contents\Nightly News\Article01\Article01_image")=%%" class="hide" height="0" width="0" border="0" alt="" style="display:none;"></a></div></td>
+																                                        </tr>
+																										<tr>
+																											<td style="padding: 20px 20px 0 20px; color: #081b26; font-size: 18px; font-family: Arial,sans-serif; font-weight: bold" class="article-header">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article01\Article01_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #081b26; font-weight: bold" target="_blank">%%=ContentAreaByName("My contents\Nightly News\Article01\Article01_title")=%%</a>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 5px 20px 0 20px; color: #777777; font-size: 16px; font-family: Arial, sans-serif; line-height: 22px" class="article-copy">%%=ContentAreaByName("My contents\Nightly News\Article01\Article01_copy")=%%
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 20px" class="article-button">
+																												<table cellspacing="0" cellpadding="0" border="0">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#081b26" align="center" style="padding: 10px; font-family: sans-serif; font-size: 14px; color: #ffffff; border-radius: 3px">
+																																<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article01\Article01_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff" target="_blank">
+																																	<b>%%=ContentAreaByName("My contents\Nightly News\Article01\Article01_button")=%%</b>
+																																</a>
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td>
+																												<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="padding: 0 20px 0 20px" class="mobile-hide">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#cccccc" style="font-size: 0%">
+																																<img alt src="https://ci3.googleusercontent.com/proxy/f2scnc8mP7_Xi3qydP3CZAzQsVVJoWEfxUH_b_d273HBX8PDvNk2LmNKAwKfRUDPgqrjV9VAAKA_5zd2MzhroDO_ROzVgK6ylvR5-FmJYMw1QlsckNiDDPaaZNBB=s0-d-e1-ft#http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/blankpixel.gif" border="0" style="display:block" width="1" height="1">
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr> <!--Article 1 end-->
+																										<tr> <!--Article 2-->
+																											<td valign="top" style="padding: 20px 20px 0 20px" class="article-image">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article02\Article02_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff;" target="_blank">
+																													<img class="mobile" width="560" border="0" alt src="%%=ContentAreaByName("My contents\Nightly News\Article02\Article02_image")=%%" style="display:block"></a>
+																											</td>
+																										</tr>
+																										<tr>
+																                                            <td style="display:none; max-height:0px; font-size:0px; height:0px" class="hide"><div class="hide" style="display:none; max-height:0; font-size:0px; height:0px"><a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article02\Article02_link'),'?cid=eml_nnn_',@todaysdate))=%%"><img src="%%=ContentAreaByName("My contents\Nightly News\Article02\Article02_image")=%%" class="hide" height="0" width="0" border="0" alt="" style="display:none;"></a></div></td>
+																                                        </tr>
+																										<tr>
+																											<td style="padding: 20px 20px 0 20px; color: #081b26; font-size: 18px; font-family: Arial,sans-serif; font-weight: bold" class="article-header">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article02\Article02_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #081b26; font-weight: bold" target="_blank">%%=ContentAreaByName("My contents\Nightly News\Article02\Article02_title")=%%</a>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 5px 20px 0 20px; color: #777777; font-size: 16px; font-family: Arial, sans-serif; line-height: 22px" class="article-copy">%%=ContentAreaByName("My contents\Nightly News\Article02\Article02_copy")=%%
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 20px" class="article-button">
+																												<table cellspacing="0" cellpadding="0" border="0">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#081b26" align="center" style="padding: 10px; font-family: sans-serif; font-size: 14px; color: #ffffff; border-radius: 3px">
+																																<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article02\Article02_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff" target="_blank">
+																																	<b>%%=ContentAreaByName("My contents\Nightly News\Article02\Article02_button")=%%</b>
+																																</a>
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td>
+																												<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="padding: 0 20px 0 20px" class="mobile-hide">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#cccccc" style="font-size: 0%">
+																																<img alt src="https://ci3.googleusercontent.com/proxy/f2scnc8mP7_Xi3qydP3CZAzQsVVJoWEfxUH_b_d273HBX8PDvNk2LmNKAwKfRUDPgqrjV9VAAKA_5zd2MzhroDO_ROzVgK6ylvR5-FmJYMw1QlsckNiDDPaaZNBB=s0-d-e1-ft#http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/blankpixel.gif" border="0" style="display:block" width="1" height="1">
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr> <!--Article 2 end-->
+																										<tr> <!--Article 3-->
+																											<td valign="top" style="padding: 20px 20px 0 20px" class="article-image">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article03\Article03_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff;" target="_blank">
+																													<img class="mobile" width="560" border="0" alt src="%%=ContentAreaByName("My contents\Nightly News\Article03\Article03_image")=%%" style="display:block"></a>
+																											</td>
+																										</tr>
+																										<tr>
+																                                            <td style="display:none; max-height:0px; font-size:0px; height:0px" class="hide"><div class="hide" style="display:none; max-height:0; font-size:0px; height:0px"><a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article03\Article03_link'),'?cid=eml_nnn_',@todaysdate))=%%"><img src="%%=ContentAreaByName("My contents\Nightly News\Article03\Article03_image")=%%" class="hide" height="0" width="0" border="0" alt="" style="display:none;"></a></div></td>
+																                                        </tr>
+																										<tr>
+																											<td style="padding: 20px 20px 0 20px; color: #081b26; font-size: 18px; font-family: Arial,sans-serif; font-weight: bold" class="article-header">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article03\Article03_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #081b26; font-weight: bold" target="_blank">%%=ContentAreaByName("My contents\Nightly News\Article03\Article03_title")=%%</a>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 5px 20px 0 20px; color: #777777; font-size: 16px; font-family: Arial, sans-serif; line-height: 22px" class="article-copy">%%=ContentAreaByName("My contents\Nightly News\Article03\Article03_copy")=%%
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 20px" class="article-button">
+																												<table cellspacing="0" cellpadding="0" border="0">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#081b26" align="center" style="padding: 10px; font-family: sans-serif; font-size: 14px; color: #ffffff; border-radius: 3px">
+																																<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article03\Article03_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff" target="_blank">
+																																	<b>%%=ContentAreaByName("My contents\Nightly News\Article03\Article03_button")=%%</b>
+																																</a>
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td>
+																												<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="padding: 0 20px 0 20px" class="mobile-hide">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#cccccc" style="font-size: 0%">
+																																<img alt src="https://ci3.googleusercontent.com/proxy/f2scnc8mP7_Xi3qydP3CZAzQsVVJoWEfxUH_b_d273HBX8PDvNk2LmNKAwKfRUDPgqrjV9VAAKA_5zd2MzhroDO_ROzVgK6ylvR5-FmJYMw1QlsckNiDDPaaZNBB=s0-d-e1-ft#http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/blankpixel.gif" border="0" style="display:block" width="1" height="1">
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr> <!--Article 3 end-->
+																										<tr> <!--Article 4-->
+																											<td valign="top" style="padding: 20px 20px 0 20px" class="article-image">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article04\Article04_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff;" target="_blank">
+																													<img class="mobile" width="560" border="0" alt src="%%=ContentAreaByName("My contents\Nightly News\Article04\Article04_image")=%%" style="display:block"></a>
+																											</td>
+																										</tr>
+																										<tr>
+																                                            <td style="display:none; max-height:0px; font-size:0px; height:0px" class="hide"><div class="hide" style="display:none; max-height:0; font-size:0px; height:0px"><a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article04\Article04_link'),'?cid=eml_nnn_',@todaysdate))=%%"><img src="%%=ContentAreaByName("My contents\Nightly News\Article04\Article04_image")=%%" class="hide" height="0" width="0" border="0" alt="" style="display:none;"></a></div></td>
+																                                        </tr>
+																										<tr>
+																											<td style="padding: 20px 20px 0 20px; color: #081b26; font-size: 18px; font-family: Arial,sans-serif; font-weight: bold" class="article-header">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article04\Article04_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #081b26; font-weight: bold" target="_blank">%%=ContentAreaByName("My contents\Nightly News\Article04\Article04_title")=%%</a>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 5px 20px 0 20px; color: #777777; font-size: 16px; font-family: Arial, sans-serif; line-height: 22px" class="article-copy">%%=ContentAreaByName("My contents\Nightly News\Article04\Article04_copy")=%%
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 20px" class="article-button">
+																												<table cellspacing="0" cellpadding="0" border="0">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#081b26" align="center" style="padding: 10px; font-family: sans-serif; font-size: 14px; color: #ffffff; border-radius: 3px">
+																																<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article04\Article04_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff" target="_blank">
+																																	<b>%%=ContentAreaByName("My contents\Nightly News\Article04\Article04_button")=%%</b>
+																																</a>
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td>
+																												<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="padding: 0 20px 0 20px" class="mobile-hide">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#cccccc" style="font-size: 0%">
+																																<img alt src="https://ci3.googleusercontent.com/proxy/f2scnc8mP7_Xi3qydP3CZAzQsVVJoWEfxUH_b_d273HBX8PDvNk2LmNKAwKfRUDPgqrjV9VAAKA_5zd2MzhroDO_ROzVgK6ylvR5-FmJYMw1QlsckNiDDPaaZNBB=s0-d-e1-ft#http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/blankpixel.gif" border="0" style="display:block" width="1" height="1">
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr> <!--Article 4 end-->
+																										<tr> <!--Article 5-->
+																											<td valign="top" style="padding: 20px 20px 0 20px" class="article-image">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article05\Article05_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff;" target="_blank">
+																													<img class="mobile" width="560" border="0" alt src="%%=ContentAreaByName("My contents\Nightly News\Article05\Article05_image")=%%" style="display:block"></a>
+																											</td>
+																										</tr>
+																										<tr>
+																                                            <td style="display:none; max-height:0px; font-size:0px; height:0px" class="hide"><div class="hide" style="display:none; max-height:0; font-size:0px; height:0px"><a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article05\Article05_link'),'?cid=eml_nnn_',@todaysdate))=%%"><img src="%%=ContentAreaByName("My contents\Nightly News\Article05\Article05_image")=%%" class="hide" height="0" width="0" border="0" alt="" style="display:none;"></a></div></td>
+																                                        </tr>
+																										<tr>
+																											<td style="padding: 20px 20px 0 20px; color: #081b26; font-size: 18px; font-family: Arial,sans-serif; font-weight: bold" class="article-header">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article05\Article05_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #081b26; font-weight: bold" target="_blank">%%=ContentAreaByName("My contents\Nightly News\Article05\Article05_title")=%%</a>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 5px 20px 0 20px; color: #777777; font-size: 16px; font-family: Arial, sans-serif; line-height: 22px" class="article-copy">%%=ContentAreaByName("My contents\Nightly News\Article05\Article05_copy")=%%
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 20px" class="article-button">
+																												<table cellspacing="0" cellpadding="0" border="0">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#081b26" align="center" style="padding: 10px; font-family: sans-serif; font-size: 14px; color: #ffffff; border-radius: 3px">
+																																<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article05\Article05_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff" target="_blank">
+																																	<b>%%=ContentAreaByName("My contents\Nightly News\Article05\Article05_button")=%%</b>
+																																</a>
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td>
+																												<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="padding: 0 20px 0 20px" class="mobile-hide">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#cccccc" style="font-size: 0%">
+																																<img alt src="https://ci3.googleusercontent.com/proxy/f2scnc8mP7_Xi3qydP3CZAzQsVVJoWEfxUH_b_d273HBX8PDvNk2LmNKAwKfRUDPgqrjV9VAAKA_5zd2MzhroDO_ROzVgK6ylvR5-FmJYMw1QlsckNiDDPaaZNBB=s0-d-e1-ft#http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/blankpixel.gif" border="0" style="display:block" width="1" height="1">
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr> <!--Article 5 end-->
+																										<tr> <!--Article 6-->
+																											<td valign="top" style="padding: 20px 20px 0 20px" class="article-image">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article06\Article06_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff;" target="_blank">
+																													<img class="mobile" width="560" border="0" alt src="%%=ContentAreaByName("My contents\Nightly News\Article06\Article06_image")=%%" style="display:block"></a>
+																											</td>
+																										</tr>
+																										<tr>
+																                                            <td style="display:none; max-height:0px; font-size:0px; height:0px" class="hide"><div class="hide" style="display:none; max-height:0; font-size:0px; height:0px"><a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article06\Article06_link'),'?cid=eml_nnn_',@todaysdate))=%%"><img src="%%=ContentAreaByName("My contents\Nightly News\Article06\Article06_image")=%%" class="hide" height="0" width="0" border="0" alt="" style="display:none;"></a></div></td>
+																                                        </tr>
+																										<tr>
+																											<td style="padding: 20px 20px 0 20px; color: #081b26; font-size: 18px; font-family: Arial,sans-serif; font-weight: bold" class="article-header">
+																												<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article06\Article06_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #081b26; font-weight: bold" target="_blank">%%=ContentAreaByName("My contents\Nightly News\Article06\Article06_title")=%%</a>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 5px 20px 0 20px; color: #777777; font-size: 16px; font-family: Arial, sans-serif; line-height: 22px" class="article-copy">%%=ContentAreaByName("My contents\Nightly News\Article06\Article06_copy")=%%
+																											</td>
+																										</tr>
+																										<tr>
+																											<td style="padding: 20px" class="article-button">
+																												<table cellspacing="0" cellpadding="0" border="0">
+																													<tbody>
+																														<tr>
+																															<td bgcolor="#081b26" align="center" style="padding: 10px; font-family: sans-serif; font-size: 14px; color: #ffffff; border-radius: 3px">
+																																<a href="%%=RedirectTo(Concat(ContentAreaByName('My contents\Nightly News\Article06\Article06_link'),'?cid=eml_nnn_',@todaysdate))=%%" style="text-decoration: none; color: #ffffff" target="_blank">
+																																	<b>%%=ContentAreaByName("My contents\Nightly News\Article06\Article06_button")=%%</b>
+																																</a>
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr>
+																										<tr>
+																											<td>
+																												<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="padding: 0 20px 0 20px" class="mobile-hide">
+																													<tbody>
+																														<tr>
+																															<td style="font-size: 0%; padding-bottom: 20px">
+																																<img alt src="https://ci3.googleusercontent.com/proxy/f2scnc8mP7_Xi3qydP3CZAzQsVVJoWEfxUH_b_d273HBX8PDvNk2LmNKAwKfRUDPgqrjV9VAAKA_5zd2MzhroDO_ROzVgK6ylvR5-FmJYMw1QlsckNiDDPaaZNBB=s0-d-e1-ft#http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/blankpixel.gif" border="0" style="display:block" width="1" height="1">
+																															</td>
+																														</tr>
+																													</tbody>
+																												</table>
+																											</td>
+																										</tr> <!--Article 6 end-->
+																										<tr> <!--footer-->
+																				                            <td>
+																				                              <table bgcolor="#081b26" width="100%" cellspacing="0" cellpadding="0" style="padding: 10px 20px 20px 20px">
+																				                                <tbody>
+																				                                  <tr>
+																				                                    <td>
+																				                                      <table cellpadding="0" cellspacing="0" border="0" align="center">
+																				                                        <tr>
+																				                                          <td valign="top" align="center" style="padding: 0; color: #eeeeee; font-family: Arial,sans-serif; font-size: 18px; font-weight: 100">
+																				                                            <p>Help Spread the News</p>
+																				                                          </td>
+																				                                        </tr>
+																				                                        <tr>
+																				                                          <td valign="top">
+																				                                          	<table>
+																				                                          		<tr>
+																				                                          			<td style="padding-right: 15px">
+																			                                          					<a href="http://facebook.com/nbcnightlynews" target="_blank"><img src="http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/facebook.png" alt="F" width="50" class="social" style="display:block; font-size: 20px; color: #eeeeee; font-weight: bold; font-family: Arial,sans-serif" border="0" yahoofix></a>
+																				                                          			</td>
+																				                                          			<td style="padding-right: 15px">
+																				                                          				<a href="https://twitter.com/nbcnightlynews" target="_blank"><img src="http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/twitter.png" alt="T" width="50" class="social" style="display:block; font-size: 20px; color: #eeeeee; font-weight: bold; font-family: Arial,sans-serif" border="0" yahoofix></a>
+																				                                          			</td>
+																				                                          			<td>
+																				                                          				<a href="http://instagram.com/nbcnightlynews" target="_blank"><img src="http://image.mail.nbcnews.com/lib/fe8f13727560007572/m/1/instagram.png" alt="I" width="50" class="social" style="display:block; font-size: 20px; color: #eeeeee; font-weight: bold; font-family: Arial,sans-serif" border="0" yahoofix></a>
+																				                                          			</td>
+																				                                          		</tr>
+																			                                          		</table>
+																				                                          </td>
+																				                                        </tr>
+																				                                      </table>
+																				                                      <table align="center">
+																				                                        <tr>
+																				                                          <td align="center" style="color:#eeeeee; font-size: 12px; line-height: 17px; font-family: Arial,sans-serif">
+																				                                            <p>NBC News<br>
+																				                                            30 Rockefeller Plaza<br>
+																				                                            New York, NY 10112</p>
+																				                                          </td>
+																				                                        </tr>
+																				                                      </table>
+																				                                    </td>
+																				                                  </tr>
+																				                                  <tr>
+																				                                    <td style="padding-top: 10px; color:#5172a0; font-size: 12px; font-weight: bold; font-family: Arial,sans-serif; line-height: 18px" align="center">
+																				                                      <a href="https://secure.nbcnews.com/_api/newsletters/unsubscribe?email=%%emailaddr%%&subId=44" style="color:#5172a0; text-decoration: none;">One-Click Unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+																				                                      <a href="http://secure.nbcnews.com/_tps/accounts/msnbc/newsletters" style="color:#5172a0; text-decoration: none;">Manage Your Subscription Preferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+																				                                      <a href="http://www.nbcuni.com/privacy/" style="color:#5172a0; text-decoration: none;">Privacy Statement</a>
+																				                                    </td>
+																				                                  </tr>
+																				                                </tbody>
+																				                              </table>
+																				                            </td>
+																				                          </tr> <!--footer end-->
+																				                      </tbody>
+																								</table>
+																							</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</custom>
+	</body>	
+</html>
